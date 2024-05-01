@@ -111,3 +111,18 @@ a:visited{
 
 /* VI. calc() */
 /* Put styles for questions 1-3 here */
+.calc-style {
+  width: calc(100vw-100px);
+  background-color: yellow;
+}
+
+.fixed-width-col {
+  width: 350px;
+  display: inline-block;
+}
+
+.fluid-col {
+  display: inline-block;
+  width: calc(100% - 350px); 
+}
+
