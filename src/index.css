@@ -26,6 +26,26 @@ article {
 }
 /* II. Box model and common properties */
 /* Put styles for questions 1-8 here */
+.box{
+  background-color: aqua;
+  margin: 5%;
+  padding: 5%;
+  width: 300px;
+  height: 100px;
+  border: 10px solid red;
+  box-sizing: content-box;
+  overflow: scroll;
+  outline: 10px;
+  border-radius: 50%;
+  background-image: url(/assets/images/img1.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+
+
+
 
 
 /* III. Positioning */
