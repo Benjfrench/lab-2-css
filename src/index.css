@@ -83,10 +83,30 @@ right: 20%;
 /* V. Styling links */
 /* Put styles for questions 1-3 here */
 a:link {
-  color: turquoise;
+  color: red;
   font-size: 14px;
   font-weight: normal;
   text-decoration: none;
+}
+
+a:hover {
+  color: darkred;
+  text-decoration: underline;
+}
+
+a:active {
+  color: darkred;
+  text-decoration: underline;
+}
+
+a:focus {
+  color: darkred;
+  text-decoration: underline;
+}
+
+a:visited{
+  color: grey;
+  font-style: italic;
 }
 
 /* VI. calc() */
